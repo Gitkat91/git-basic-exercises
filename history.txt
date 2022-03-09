@@ -1,0 +1,482 @@
+    1  git checkout task/7
+    2  ls
+    3  git rm README.md 
+    4  git rm task1.js
+    5  git rm task2.js
+    6  git rm task3.js
+    7  git rm task4.js
+    8  git rm task5.js
+    9  ls
+   10  git commit -m "Deleted the file from the git repository"
+   11  git push
+   12   git push --force origin task/7
+   13  git checkout main
+   14  ls
+   15  git pull
+   16  git push
+   17  git stash
+   18  git commit -m
+   19  git commit -m "task5"
+   20  git checkout
+   21  git checkout main
+   22  git add task5.js
+   23  git commit -m "task5"
+   24  ls
+   25  git pull
+   26  git checkout task/3
+   27  ls
+   28  ls
+   29  git status
+   30  git add task5.js
+   31  git add task3.js
+   32  git commit -m "Function naming fix"
+   33  git checkout main
+   34  git push origin task/3
+   35  git pull
+   36  git checkout task/3
+   37  ls
+   38  git checkout main
+   39  git pull
+   40  git checkout task/6
+   41  ls
+   42  git status
+   43  git add task6.js
+   44  git commit -m "task 6 fix"
+   45  git checkout main
+   46  git push origin task/6
+   47  git pull
+   48  git checkout task/6
+   49  git pull
+   50  ls
+   51  git checkout main
+   52  git checkout task/7
+   53  git pull
+   54  ls
+   55  git add task7.js
+   56  git commit -m "task7 fix"
+   57  git checkout main
+   58  git push origin task/7
+   59  git pull
+   60  git fetch origin
+   61  git push
+   62  git pull
+   63  git checkout task/7
+   64  ls
+   65  git status
+   66  git add task7.js
+   67  git commit -m "Task 7 fix"
+   68  git checkout main
+   69  git push origin task/7
+   70  git pull
+   71  git checkout task/3
+   72  git add task3.js
+   73  git commit -m "Task 3 fix"
+   74  it checkout main
+   75  git checkout main
+   76  git push origin task/3
+   77  git checkout task/3
+   78  ls
+   79  git checkout main
+   80  git checkout task/1
+   81  gs
+   82  ls
+   83  git rm README.md 
+   84  git add task1.ks
+   85  git add task1.js
+   86  git commit -m "task 1 fix"
+   87  git checkout main
+   88  git push origin task/1
+   89  git pull
+   90  git log --merge
+   91  git merge --abort
+   92  git reset
+   93  git checkout task/1
+   94  ls
+   95  git mergetool
+   96  git fetch origin
+   97  git checkout main
+   98  git fetch origin
+   99  git pull origin master
+  100  git status
+  101  git checkout task/1
+  102  git status
+  103  git push
+  104  git checkout main
+  105  git push
+  106  git pull
+  107  git checkout task/1
+  108  git pull
+  109  git pull task/1
+  110  git checkout main
+  111  git pull task/1
+  112  git checkout master
+  113  git pull origin master
+  114  git checkout task/1
+  115  git merge master
+  116  git push origin task/1
+  117  git  checkout task/1
+  118  git add task1.js
+  119  git commit -m "task1"
+  120  git checkout master
+  121  git push origin task/1
+  122  git pull
+  123  git pull task/1
+  124  git checkout main
+  125  git pull
+  126  git checkout task/1
+  127  ls
+  128  git checkout main
+  129  git log --merge
+  130  git diff
+  131  git status
+  132  git checkout task/1
+  133  it status
+  134  git status
+  135  git checkout main
+  136  git push
+  137  git merge --abort
+  138  git reset --merge
+  139  git pull
+  140  rm -rf .git/MERGE*
+  141  git push
+  142  git push origin task/1
+  143  git reset --hard origin/master
+  144  git task/1
+  145  git checkou task/1
+  146  git checkout task/1
+  147  git status
+  148  git pull origin task/1
+  149  git push origin task/1
+  150  git checkout main
+  151  git push origin task/1
+  152  git push origin task/1
+  153  git checkout main
+  154  git pull
+  155  ls
+  156  git checkout task/5
+  157  ls
+  158  git rm task2.js
+  159  git status
+  160  git add task5.js
+  161  git commit -m "task 5 fix"
+  162  git push -u origin task/5
+  163  ls
+  164  git checkout main
+  165  git checkout task/5
+  166  git push -u origin task/5
+  167  git checkout main
+  168  git pull
+  169  git checkout task/6
+  170  ls
+  171  git status
+  172  ls
+  173  git status
+  174  git add task6.js
+  175  git commit -m "task 6 fix"
+  176  git push -u origin task/6
+  177  git checkout main
+  178  git pull
+  179  git checkout task/5
+  180  ls
+  181  git pull
+  182  ls
+  183  git pull origin task/5
+  184  ls
+  185  git fetch origin
+  186  ls
+  187  git merge main
+  188  ls
+  189  ls
+  190  git rm task3.js
+  191  git rm task7.js
+  192  ls
+  193  git status
+  194  git status
+  195  git push -u origin task/5
+  196  git checkout main
+  197  git pull
+  198  git status
+  199  git stash
+  200  git pull
+  201  git status
+  202  git checkout task/7
+  203  ls
+  204  git pull
+  205  git checkout main
+  206  git task/6
+  207  git checkout task/6
+  208  ls
+  209  git pull
+  210  git fetch origin
+  211  git checkout origin/task/6
+  212  git switch -
+  213  git merge main
+  214  git checkout main
+  215  git switch
+  216  git switch -
+  217  ls
+  218  git status
+  219  git add task3.js
+  220  git commit -m "task 6 fix"
+  221  git push -u origin task/6
+  222  ls
+  223  git rm task3.js
+  224  git rm task7.js
+  225  git add task6.js
+  226  git commit -m "task 6 fix"
+  227  git push -u origin task/6
+  228  git checkout task/5
+  229  ls
+  230  git rm task3.js
+  231  git rm task7.js
+  232  git add task5.js
+  233  git commit -m "task 5 fix"
+  234  git push -u origin task/5
+  235  git checkout main
+  236  git pull
+  237  git pull
+  238  git checkout task/6
+  239  git status
+  240  git add task6.js
+  241  git commit -m "task 6 fix"
+  242  git push -u origin task/6
+  243  ls -a
+  244  git init
+  245  ls -a
+  246  git status
+  247  touch README.md
+  248  ls -a
+  249  git status
+  250  git log
+  251  git add README.md 
+  252  git status
+  253  git commit -m "initial commit
+  254  git commit -m "initial commit
+  255  git commit -m "initial commit
+  256  git commit -m "initial commit
+  257  ls
+  258  cd git-basic-exercises/
+  259  cd git-basic-exercises/
+  260  ls -a
+  261  git init
+  262  ls -a
+  263  git status
+  264  touch README.md
+  265  git log
+  266  ls
+  267  git log
+  268  git add
+  269  git add README.md 
+  270  git stayus
+  271  git status
+  272  git commit -m "initial commit"
+  273  git log
+  274  nano README.md
+  275  cat README.md 
+  276  git status
+  277  git add README.md 
+  278  git commit -m "Second commit"
+  279  nano README.md
+  280  git add README.md 
+  281  git commit -m "Third commit"
+  282  git log
+  283  git checkout 14a5e50abd31cf48db830dfb5e3d433b8d66fe71
+  284  cat README.md 
+  285  git checkout main
+  286  git checkout master
+  287  cat README.md 
+  288  git branch
+  289  git checkout -b milkshake-flavours
+  290  git branch
+  291  git checkout milkshake-flavours 
+  292  nano milkshakes.md
+  293  git status
+  294  git add milkshakes.md 
+  295  git commit -m "added initial flavours"
+  296  git log
+  297  git checkout main
+  298  git checkout master
+  299  git checkout -b history
+  300  git log
+  301  git branch
+  302  history > history.txt
+  303  git commit -m "added history"
+  304  git add history.txt 
+  305  git commit -m "added history"
+  306  git log
+  307  git checkout milkshake-flavours
+  308  git log
+  309  a
+  310  ls
+  311  nano README.md 
+  312  cat README.md 
+  313  git checkout history 
+  314  ls
+  315  cat README.md 
+  316  rm README.md
+  317  echo "booya" > README.md
+  318  git status
+  319  git add README.md 
+  320  git commit -m "rewrote readme"
+  321  git checkout master 
+  322  ls
+  323  git log
+  324  git checkout milkshake-flavours 
+  325  ls
+  326  git log
+  327  git status
+  328  ls
+  329  nano.exe 
+  330  nano README.md 
+  331  git checkout history 
+  332  ls
+  333  git log
+  334  a
+  335  git log
+  336  git checkout milkshake-flavours 
+  337  nano README.md 
+  338  cat README.md 
+  339  git add README.md 
+  340  git commit -m "random readme changes"
+  341  git checkout main
+  342  git merge milkshake-flavours
+  343  ls
+  344  git checkout main
+  345  git checkout master
+  346  git merge milkshake-flavours
+  347  ls
+  348  git log
+  349  git merge history 
+  350  git checkout history 
+  351  ls
+  352  git status
+  353  git add README.md 
+  354  git checkout history 
+  355  git stash
+  356  git checkout history 
+  357  ls
+  358  git status
+  359  git log
+  360  git mere master
+  361  git merge master
+  362  cd git-basic-exercises/
+  363  ls -a
+  364  git init 
+  365  ls -a
+  366  git status
+  367  touch README.md
+  368  ls -a
+  369  git status
+  370  it log
+  371  git log
+  372  git status
+  373  git dd README.md
+  374  git commit -m "initial commi
+  375  git commit -m "initial commit
+  376  mkdir git-basic-exercises
+  377  cd git-basic-exercises/
+  378  ls -a
+  379  git status
+  380  touch README.md
+  381  ls -a
+  382  git status
+  383  mkdir git-basic-exercises
+  384  ls -a
+  385  git init
+  386  ls -a
+  387  git status
+  388  touch README.md
+  389  ls -a
+  390  git status
+  391  git log
+  392  git add README.md 
+  393  git status
+  394  git commit -m "initial commit"
+  395  git log
+  396  nano README.md
+  397  cat README.md
+  398  git status
+  399  git add README.md 
+  400  git commit -m "second commit"
+  401  nano README.md 
+  402  git add README.md 
+  403  git commit -m "third commit"
+  404  git log
+  405  git checkout 3c8756f586038bc2e460d99c18ed5936c8a39100
+  406  cat README.md 
+  407  git checkout master 
+  408  cat README.md 
+  409  git branch
+  410  git checkout -b milkshake-flavours
+  411  git branch
+  412  nano milkshakes.md
+  413  git status
+  414  git milkshakes.md
+  415  git commit -m "added initial flavours"
+  416  git status
+  417  git add milkshakes.md
+  418  git commit -m "added initial flavours"
+  419  git log
+  420  git checkout master
+  421  git checkout -b history
+  422  git log
+  423  git branch
+  424  history > history.txt
+  425  git added history.txt
+  426  git commit -m "added history"
+  427  git add history.txt
+  428  git commit -m "added history"
+  429  git log
+  430  nano README.md 
+  431  git add README.md
+  432  git commit -m "random readme changes"
+  433  git checkout README.md
+  434  git checkout history 
+  435  cat README.md 
+  436  rm README.md
+  437  echo "booya" > README.md
+  438  git add README.md
+  439  git commit -m "rewrote readme"
+  440  git log
+  441  git checkout master
+  442  ls
+  443  ls -a
+  444  git init
+  445  ls -a
+  446  git status
+  447  touch README.md
+  448  ls -a
+  449  git status
+  450  git log
+  451  git add README.md 
+  452  git commit - m "initial commit"
+  453  git commit - m "initial commit"
+  454  ls
+  455  git commit -m "initial commit"
+  456  nano README.md
+  457  cat README.md 
+  458  git add README.md 
+  459  git commit -m "Second commit"
+  460  nano README.md 
+  461  git add README.md 
+  462  git commit -m "third commit"
+  463  git log
+  464  git branch
+  465  git checkout master
+  466  git checkout master
+  467  git branch
+  468  git checkout 147b99b9c58815c2b6a3471ddd2e4a21f55b8838
+  469  git checkout master
+  470  cat README.md 
+  471  git branch
+  472  git checkout -b milkshake-flavours
+  473  git branch
+  474  nano milkshakes.md
+  475  git add milkshakes.md 
+  476  git commit -m "added initial flavours"
+  477  git log
+  478  git checkout master
+  479  git checkout -b history
+  480  git log
+  481  git branch
+  482  history > history.txt
